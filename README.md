@@ -15,7 +15,7 @@ VideoInterface:
  - getCurrentVideoResolution();
  - videoData: VideoData[]
 
-// Atenção, os dados do Private Class Data **devem** ser imutáveis  zl
+// Atenção, os dados do Private Class Data **devem** ser imutáveis  
 VideoData:
  - width
  - height
