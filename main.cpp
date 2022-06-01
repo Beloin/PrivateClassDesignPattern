@@ -23,5 +23,11 @@ int main() {
 
     cout << "Current Resolution: " << videoInterface->getCurrentVideoResolution() << endl;
     cout << "Current Size: " << videoInterface->getCurrentVideoSize() << endl;
+
+    cout << "Changing Resolution to 1600" << endl;
+    videoInterface->setResolution(1600);
+    cout << "Current Resolution: " << videoInterface->getCurrentVideoResolution() << endl;
+    cout << "Current Size: " << videoInterface->getCurrentVideoSize() << endl;
+
     return 0;
 }

@@ -16,7 +16,7 @@ vector<int> VideoInterface::getAvailableResolutions() {
 }
 
 void VideoInterface::setResolution(int resolution) {
-    for (int i= 0; i<=this->videos.size(); i++) {
+    for (int i= 0; i< this->videos.size(); i++) {
         VideoData *&videoData = this->videos.at(i);
         if (videoData->height == resolution) {
             this->currentVideo = videoData;
