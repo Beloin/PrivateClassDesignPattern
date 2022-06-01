@@ -22,3 +22,7 @@ VideoData:
  - videoName
  - url
  - size // Size in mb
+
+// API Externa para envio de dados  
+VideoExternAPI:
+ - getVideoData();
